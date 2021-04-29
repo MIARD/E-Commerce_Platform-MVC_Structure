@@ -3,10 +3,10 @@
 
 Structure of the website is MVC Structure. Which includes 3 Components: 
   1. Model  
-    * Models.py file from the project files.
-    * It refers to the Data Related Logic.
-    * Interaction with database.
-    * It communicates with the controllers.
+    - Models.py file from the project files.
+    - It refers to the Data Related Logic.
+    - Interaction with database.
+    - It communicates with the controllers.
 
   2. View  
     * All the Html, CSS file.
