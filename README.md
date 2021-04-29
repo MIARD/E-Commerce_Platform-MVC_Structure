@@ -1,4 +1,4 @@
-*# An E-Commerce Platform following MVC Structure which can give services to people for buying things that for sale. #*
+* # An E-Commerce Platform following MVC Structure which can give services to people for buying things that for sale. # *
 ## Programming language use to build Backend of this website is Python. I have use python framework Django which help to build this website in a short time. ## 
 
 Structure
@@ -27,7 +27,7 @@ Structure of the project files is doen by following MVC Structure. Which include
 Features
 ---------------
 
-*Features of the website(User):*
+Features of the website(User):
   * Users can Signup using only with their email, username, password.  
   * Login can be done if the user have an existing account.  
   * Customers View all products in their homepage.  
@@ -36,7 +36,7 @@ Features
   * When there is one or more than one products in the cart, users can still continue their shopping and add products to the cart.  
   * Available products in the cart can be increased or decreased whenever a user want to do so.  
 
-*Featurees of the website(Admin):*
+Featurees of the website(Admin):
   * Admin can add superuser.
   * A person that have superuser credential can access the admin panel.
   * In the admin panel, admin can add, edit and delete the products.
