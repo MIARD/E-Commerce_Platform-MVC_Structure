@@ -1,5 +1,5 @@
 # An E-Commerce Platform following MVC Structure which can give services to people for buying things that for sale. #  
-## Programming language use to build Backend of this website is Python. I have use python framework Django which help to build this website in a short time. ## 
+## Programming language use to build Backend of this website is Python. However, I have used python framework Django which help to build this website in a short time. ## 
 
 Structure
 ---------------
