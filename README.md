@@ -1,7 +1,7 @@
-*#An E-Commerce Platform following MVC Structure which can give services to people for buying things that for sale.#*
-##Programming language use to build Backend of this website is Python. I have use python framework Django which help to build this website in a short time.## 
+*# An E-Commerce Platform following MVC Structure which can give services to people for buying things that for sale. #*
+## Programming language use to build Backend of this website is Python. I have use python framework Django which help to build this website in a short time. ## 
 
-##Structure##
+Structure
 ---------------
 
 Structure of the project files is doen by following MVC Structure. Which includes 3 Components: 
@@ -24,7 +24,7 @@ Structure of the project files is doen by following MVC Structure. Which include
     - Communicates with both Model and View.  
     - Contains all server side logic.  
 
-##Features##
+Features
 ---------------
 
 *Features of the website(User):*
