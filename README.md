@@ -20,7 +20,7 @@ Structure of the project files is doen by following MVC Structure. Which include
   3. Controller  
     - Views.py file from the project files.  
     - Handles all the user inputs through url.  
-    - The interaction to an application starts here by the user interactions – mouse click, key press etc. 
+    - The interaction to an application starts here by the user interactions – mouse click, key press etc.  
     - Communicates with both Model and View.  
     - Contains all server side logic.  
 
