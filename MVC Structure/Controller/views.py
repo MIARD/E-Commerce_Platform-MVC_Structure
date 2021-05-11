@@ -180,7 +180,7 @@ def decrease_item(request, pk):
 
 #*************************APP SHOP*****************
 
-login_required
+@login_required
 def checkout(request):
     saved_address = _models.BillingAddress.objects.get_or_create(user=request.user)
     saved_address = saved_address[0]
