@@ -11,8 +11,7 @@ class ProfileTest(TestCase):
         self.profile1 = _models.Profile.objects.get_or_create(user=self.user1)[0]
         self.profile2 = _models.Profile.objects.get_or_create(user=self.user2)[0]
 
-        # self.profile1.username = "test"
-        # self.profile1.full_name = "test test"
+    
         self.profile1.username = "test"
         self.profile1.full_name = "test user"
         self.profile1.address_1 = "django testdb"
