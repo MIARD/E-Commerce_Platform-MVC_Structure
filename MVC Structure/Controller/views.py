@@ -43,7 +43,6 @@ def sign_up(request):
     return render(request, 'App_Login/signup.html', context={'form':form})
 
 def login_user(request):
-    print(request)
     form = AuthenticationForm()
     if request.method == 'POST':
         form = AuthenticationForm(data=request.POST)
