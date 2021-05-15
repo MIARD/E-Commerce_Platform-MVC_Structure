@@ -1,8 +1,4 @@
-from django.test import RequestFactory, TestCase, Client
-from django.contrib.auth.models import AnonymousUser
-
-import mock
-
+from django.test import  TestCase
 from django.contrib.messages.storage.fallback import FallbackStorage
 
 
