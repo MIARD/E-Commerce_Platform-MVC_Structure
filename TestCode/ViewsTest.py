@@ -13,7 +13,6 @@ _models = _models.Model.models
 class ViewsTest(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
-        self.client = Client()
         self.user = _models.User.objects._create_user(email="test@gmail.com",password="top_secret")
         self.category = _models.Category()
         self.category.title = "mix"
