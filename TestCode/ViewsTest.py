@@ -1,4 +1,4 @@
-from django.test import  TestCase
+from django.test import  TestCase, RequestFactory
 from django.contrib.messages.storage.fallback import FallbackStorage
 
 
