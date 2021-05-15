@@ -49,6 +49,7 @@ class ViewsTest(TestCase):
         self.response = _views.add_to_cart(self.request,1)
 
         cart = _models.Cart.objects.get(user=self.user)
+
         self.assertEqual(self.response.status_code, 302, "Should get a successfull response.")
         self.assertEqual(cart.quantity, 4, "Same product should add to the same cart 3 time.")
         self.assertFalse(cart.purchased, "Purchased should be false by default.")
@@ -91,5 +92,6 @@ class ViewsTest(TestCase):
         setattr(request, '_messages', messages)
         response = _views.remove_from_cart(request,1)
         order_item = _models.Cart.objects.filter(item=self.product, user=request.user, purchased=False)
+
         self.assertEqual(response.status_code, 302, "Should get a successfull response.")
         self.assertEqual(len(order_item), 0 , "Cart should be remove from order")
